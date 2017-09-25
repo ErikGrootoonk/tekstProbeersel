@@ -1,0 +1,180 @@
+body {
+
+    padding-top:40px;
+    margin:0;
+}
+
+
+h1 {
+    color: white;
+}
+
+* {
+    color: black;
+    font-family: sans-serif;
+}
+
+a {
+
+    color: white;
+}
+
+.firstImage{
+    padding-top:20px;
+    margin: 0 auto;
+
+}
+
+
+.quotes {
+    color: white;
+    font-family:sans-serif;
+    font-size: 1.25em;
+}
+
+.topnav {
+    background-color: #333;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+a.social {
+    float: right;
+}
+
+
+.twitter-timeline {
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+.container {
+    display: grid;
+    justify-content: stretch;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "main main main sidebar"
+    "footer footer footer footer";
+}
+
+@media (max-width: 700px) {
+    .container {
+        grid-template-areas:
+        "main"
+        "footer"
+        "header"
+        "sidebar";
+    }
+}
+
+
+<div.container> {
+    height: 50vh;
+    font-family: monospace;
+    padding: 1rem;
+    color: white;
+}
+
+.item-a {
+    grid-area: header;
+    background-color: HSL(340, 100%, 30%);
+}
+.item-b {
+    grid-area: main;
+    background-color: HSL(23, 100%, 46%);
+}
+.item-c {
+    grid-area: sidebar;
+    background-color: HSL(37, 98%, 64%);
+}
+.item-d {
+    grid-area: footer;
+    background-color: HSL(216, 39%, 29%);
+}
+
+
+.beton img {
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% - 4px);
+    overflow:hidden;
+    vertical-align: top;
+}
+
+.beton img:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+
+/*@media screen and (min-width: 50em) {
+.beton img {
+width: calc(25% - 6px);
+}
+.beton img:nth-of-type(2n) {
+margin-right: 8px;
+}
+.beton img:nth-of-type(4n) {
+margin-right: 0;
+}
+}*/
+
+
+}
+
+div.portrait{
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 0 0 10px;
+}
+
+.fotoAlgemeen{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.toTheRight{
+    clear:both;
+    float:right;
+    margin: 10px 10px 10px 10px;
+    max-width: 40%;
+}
+
+
+.floating-box {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    /*border: 3px solid #73AD21;*/
+}
