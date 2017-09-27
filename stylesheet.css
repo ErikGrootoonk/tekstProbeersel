@@ -1,7 +1,10 @@
 body {
 
-    padding-top:40px;
-    margin:0;
+    
+    background-image:    url("florian-klauer-489.jpg");
+    background-size:     cover;          /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 
