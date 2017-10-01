@@ -1,15 +1,19 @@
 body {
 
-    
-    background-image:    url("florian-klauer-489.jpg");
-    background-size:     cover;          /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 30px;
+    margin: 0 0 30px;
+    padding-top: 40px;
+    /*text-align: center; */
+    margin-bottom: 0;
+    background-color:Grey;
 }
 
 
+
 h1 {
-    color: white;
+    color:black;
 }
 
 * {
@@ -100,7 +104,7 @@ a.social {
 }
 
 
-<div.container> {
+.container {
     height: 50vh;
     font-family: monospace;
     padding: 1rem;
@@ -152,7 +156,7 @@ margin-right: 0;
 }*/
 
 
-}
+
 
 div.portrait{
     border-radius: 10px;
